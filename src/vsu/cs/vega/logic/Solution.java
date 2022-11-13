@@ -1,44 +1,10 @@
-package vsu.cs.vega;
+package vsu.cs.vega.logic;
 
-import java.io.*;
-import java.util.ArrayList;
-import java.util.Arrays;
+
 
 
 public class Solution {
-
-    void readMtx() throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("src/vsu/cs/vega/input.txt"));
-
-        ArrayList<String> lines = new ArrayList<>();
-        while (br.ready()) {
-            lines.add(br.readLine());
-        }
-        int matrixHeight = lines.size();
-
-        int[][] matrix = new int[matrixHeight][];
-
-        for(int i = 0; i < matrixHeight; ++i) {
-            String[] nums = lines.get(i).split("\s*,\s*");
-            matrix[i] = new int[nums.length];
-            for(int j = 0; j < nums.length; ++j) {
-                matrix[i][j] = Integer.parseInt(nums[j]);
-            }
-        }
-        int[][] matrixForOutput = calc(matrix);
-        try(PrintWriter out = new PrintWriter(new FileOutputStream("src/vsu/cs/vega/output.txt"))) {
-            for (int i = 0; i < matrixHeight; ++i) {
-               out.println(Arrays.toString(matrixForOutput[i]).replaceAll("^\\[|]$", ""));
-            }
-        }
-        catch (ArrayIndexOutOfBoundsException ignored){
-        }
-
-
-        //out.println(Arrays.toString(matrixForOutput).replaceAll("^\\[|]$", ""));
-    }
-
-    int[][] calc(int[][] array) {
+    public static int[][] calc(int[][] array) {
         int rows = array.length;
         int cols = array[0].length;
         boolean[] minRows = null, maxRows = null;

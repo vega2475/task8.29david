@@ -4,16 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bd72202-dd6f-40de-ad57-7c9dedb9f1c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/vsu/cs/vega/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vsu/cs/vega/Solution.class" afterDir="false" />
+    <list default="true" id="3bd72202-dd6f-40de-ad57-7c9dedb9f1c2" name="Changes" comment="v0.06">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vsu/cs/vega/cmd/CmdParseArgsError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vsu/cs/vega/cmd/InputArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vsu/cs/vega/logic/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vsu/cs/vega/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vsu/cs/vega/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vsu/cs/vega/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vsu/cs/vega/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vsu/cs/vega/cmd/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vsu/cs/vega/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vsu/cs/vega/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vsu/cs/vega/logic/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vsu/cs/vega/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/vsu/cs/vega/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vsu/cs/vega/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/vsu/cs/vega/output.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,6 +48,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/home/vega/IdeaProjects/task8.29david",
     "node.js.detected.package.eslint": "true",
@@ -55,7 +70,7 @@
   </component>
   <component name="RunManager">
     <configuration name="cmd" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="vsu.cs.vega.Main" />
+      <option name="MAIN_CLASS_NAME" value="vsu.cs.vega.cmd.Main" />
       <module name="task8.29david" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,8 +85,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668350135719</updated>
-      <workItem from="1668350137025" duration="4360000" />
+      <workItem from="1668350137025" duration="9326000" />
     </task>
+    <task id="LOCAL-00001" summary="v0.06">
+      <created>1668359504628</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668359504628</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +113,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="v0.06" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.06" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
