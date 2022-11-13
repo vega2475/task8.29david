@@ -39,7 +39,7 @@ public class Main {
         }
 
 
-        int[][] sourceMatrix = new int[0][];
+        int[][] sourceMatrix = new int[0][0];
         try {
             sourceMatrix = Utils.readIntMatrixFromFile(inputArgs.inputFile);
         }
@@ -47,9 +47,9 @@ public class Main {
             System.err.printf("Ошибка при чтении исходного файла %s", e.toString());
             System.exit(2);
         }
-        Solution.calc(sourceMatrix);
+        int[][] a = Solution.calc(sourceMatrix);
         try {
-            Utils.writeIntMatrixToFile(inputArgs.outputFile, sourceMatrix);
+            Utils.writeIntMatrixToFile(inputArgs.outputFile, a);
         }
         catch (IOException e) {
             System.err.printf("Ошибка при записи массива в файл %s", e.toString());
